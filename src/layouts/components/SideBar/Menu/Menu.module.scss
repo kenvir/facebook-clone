@@ -1,0 +1,26 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--text-color);
+    padding: 6px 0 6px 10px;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 6px;
+    }
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    margin-left: 10px;
+}
+
+.title {
+    display: flex;
+}
