@@ -1,0 +1,39 @@
+.wrapper {
+    margin-top: 8px;
+
+    &:hover {
+        .edit {
+            display: block;
+        }
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.label {
+    color: #b0b3b8;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.edit {
+    display: none;
+    color: #4599ff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 6px;
+    margin-right: 4px;
+
+    &:hover {
+        background-color: #2e2f31;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}

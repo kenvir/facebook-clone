@@ -1,11 +1,52 @@
 .wrapper {
-    width: 350px;
+    width: 355px;
+    height: 100%;
     padding: 15px 0 0 8px;
     background-color: #1c1e21;
     position: fixed;
-    height: 1000px;
     overflow-y: auto;
+}
+
+.pages {
+    height: 358px;
+    overflow-y: auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    height: 50px;
 
     &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 6px;
+    }
+}
+
+.avatar {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 12px;
+}
+
+.more-btn {
+    color: #e4e6eb;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 36px;
+    padding: 6px 0 6px 10px;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 6px;
     }
 }
